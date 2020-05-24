@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		27D4328ABCB77EB553E34563 /* Pods_ChoreGeneratorTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 320132318D4496BB0FB8E574 /* Pods_ChoreGeneratorTests.framework */; };
 		96AD1581247AAD28003D04F9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 96AD1580247AAD28003D04F9 /* AppDelegate.m */; };
 		96AD158C247AAD2C003D04F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96AD158B247AAD2C003D04F9 /* Assets.xcassets */; };
 		96AD158F247AAD2C003D04F9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96AD158D247AAD2C003D04F9 /* LaunchScreen.storyboard */; };
@@ -14,6 +15,8 @@
 		96AD159C247AAD2C003D04F9 /* ChoreGeneratorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 96AD159B247AAD2C003D04F9 /* ChoreGeneratorTests.m */; };
 		96AD15A7247AAD2C003D04F9 /* ChoreGeneratorUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 96AD15A6247AAD2C003D04F9 /* ChoreGeneratorUITests.m */; };
 		96AD15C3247AAF78003D04F9 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 96AD15C2247AAF78003D04F9 /* HomeViewController.m */; };
+		C8EA55C5A21A9F3C6B1FAB19 /* Pods_ChoreGenerator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 883F3598F631932EB2B741F8 /* Pods_ChoreGenerator.framework */; };
+		E3321F1438AD4EF81629AB80 /* Pods_ChoreGenerator_ChoreGeneratorUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F89A312F65846C1D16F27867 /* Pods_ChoreGenerator_ChoreGeneratorUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2467288F64FD9360C500384F /* Pods-ChoreGenerator-ChoreGeneratorUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChoreGenerator-ChoreGeneratorUITests.release.xcconfig"; path = "Target Support Files/Pods-ChoreGenerator-ChoreGeneratorUITests/Pods-ChoreGenerator-ChoreGeneratorUITests.release.xcconfig"; sourceTree = "<group>"; };
+		2CEFBB14BBC7CA4C7F2EDCE8 /* Pods-ChoreGenerator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChoreGenerator.debug.xcconfig"; path = "Target Support Files/Pods-ChoreGenerator/Pods-ChoreGenerator.debug.xcconfig"; sourceTree = "<group>"; };
+		320132318D4496BB0FB8E574 /* Pods_ChoreGeneratorTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChoreGeneratorTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		600A0AFDC2C4C6AFAA78ACAD /* Pods-ChoreGeneratorTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChoreGeneratorTests.debug.xcconfig"; path = "Target Support Files/Pods-ChoreGeneratorTests/Pods-ChoreGeneratorTests.debug.xcconfig"; sourceTree = "<group>"; };
+		883F3598F631932EB2B741F8 /* Pods_ChoreGenerator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChoreGenerator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		96AD157C247AAD28003D04F9 /* ChoreGenerator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChoreGenerator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		96AD157F247AAD28003D04F9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		96AD1580247AAD28003D04F9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -49,6 +57,10 @@
 		96AD15A8247AAD2C003D04F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		96AD15C1247AAF78003D04F9 /* HomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
 		96AD15C2247AAF78003D04F9 /* HomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		9E6FD88A427378A7BD60C726 /* Pods-ChoreGenerator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChoreGenerator.release.xcconfig"; path = "Target Support Files/Pods-ChoreGenerator/Pods-ChoreGenerator.release.xcconfig"; sourceTree = "<group>"; };
+		B9C94C649651AB531E72783C /* Pods-ChoreGenerator-ChoreGeneratorUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChoreGenerator-ChoreGeneratorUITests.debug.xcconfig"; path = "Target Support Files/Pods-ChoreGenerator-ChoreGeneratorUITests/Pods-ChoreGenerator-ChoreGeneratorUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		F6EC6FF347D944F8AB3B7D60 /* Pods-ChoreGeneratorTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChoreGeneratorTests.release.xcconfig"; path = "Target Support Files/Pods-ChoreGeneratorTests/Pods-ChoreGeneratorTests.release.xcconfig"; sourceTree = "<group>"; };
+		F89A312F65846C1D16F27867 /* Pods_ChoreGenerator_ChoreGeneratorUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChoreGenerator_ChoreGeneratorUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C8EA55C5A21A9F3C6B1FAB19 /* Pods_ChoreGenerator.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				27D4328ABCB77EB553E34563 /* Pods_ChoreGeneratorTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +84,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E3321F1438AD4EF81629AB80 /* Pods_ChoreGenerator_ChoreGeneratorUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8264732F675A75302092048D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				883F3598F631932EB2B741F8 /* Pods_ChoreGenerator.framework */,
+				F89A312F65846C1D16F27867 /* Pods_ChoreGenerator_ChoreGeneratorUITests.framework */,
+				320132318D4496BB0FB8E574 /* Pods_ChoreGeneratorTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8E5B5603BE1C1044D876002F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2CEFBB14BBC7CA4C7F2EDCE8 /* Pods-ChoreGenerator.debug.xcconfig */,
+				9E6FD88A427378A7BD60C726 /* Pods-ChoreGenerator.release.xcconfig */,
+				B9C94C649651AB531E72783C /* Pods-ChoreGenerator-ChoreGeneratorUITests.debug.xcconfig */,
+				2467288F64FD9360C500384F /* Pods-ChoreGenerator-ChoreGeneratorUITests.release.xcconfig */,
+				600A0AFDC2C4C6AFAA78ACAD /* Pods-ChoreGeneratorTests.debug.xcconfig */,
+				F6EC6FF347D944F8AB3B7D60 /* Pods-ChoreGeneratorTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		96AD1573247AAD28003D04F9 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +122,8 @@
 				96AD159A247AAD2C003D04F9 /* ChoreGeneratorTests */,
 				96AD15A5247AAD2C003D04F9 /* ChoreGeneratorUITests */,
 				96AD157D247AAD28003D04F9 /* Products */,
+				8E5B5603BE1C1044D876002F /* Pods */,
+				8264732F675A75302092048D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -240,9 +281,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 96AD15AB247AAD2C003D04F9 /* Build configuration list for PBXNativeTarget "ChoreGenerator" */;
 			buildPhases = (
+				EF09E41A9FC3AF75D1373A9C /* [CP] Check Pods Manifest.lock */,
 				96AD1578247AAD28003D04F9 /* Sources */,
 				96AD1579247AAD28003D04F9 /* Frameworks */,
 				96AD157A247AAD28003D04F9 /* Resources */,
+				5728D2003A36617CE2D1C525 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -257,6 +300,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 96AD15AE247AAD2C003D04F9 /* Build configuration list for PBXNativeTarget "ChoreGeneratorTests" */;
 			buildPhases = (
+				89E6209C3E39D02C41A9A69D /* [CP] Check Pods Manifest.lock */,
 				96AD1593247AAD2C003D04F9 /* Sources */,
 				96AD1594247AAD2C003D04F9 /* Frameworks */,
 				96AD1595247AAD2C003D04F9 /* Resources */,
@@ -275,9 +319,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 96AD15B1247AAD2C003D04F9 /* Build configuration list for PBXNativeTarget "ChoreGeneratorUITests" */;
 			buildPhases = (
+				59CAEE5CDE00349933440DD4 /* [CP] Check Pods Manifest.lock */,
 				96AD159E247AAD2C003D04F9 /* Sources */,
 				96AD159F247AAD2C003D04F9 /* Frameworks */,
 				96AD15A0247AAD2C003D04F9 /* Resources */,
+				E870581C20744C9FB8ED14D6 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -356,6 +402,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5728D2003A36617CE2D1C525 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ChoreGenerator/Pods-ChoreGenerator-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ChoreGenerator/Pods-ChoreGenerator-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ChoreGenerator/Pods-ChoreGenerator-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		59CAEE5CDE00349933440DD4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ChoreGenerator-ChoreGeneratorUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		89E6209C3E39D02C41A9A69D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ChoreGeneratorTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E870581C20744C9FB8ED14D6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ChoreGenerator-ChoreGeneratorUITests/Pods-ChoreGenerator-ChoreGeneratorUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ChoreGenerator-ChoreGeneratorUITests/Pods-ChoreGenerator-ChoreGeneratorUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ChoreGenerator-ChoreGeneratorUITests/Pods-ChoreGenerator-ChoreGeneratorUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EF09E41A9FC3AF75D1373A9C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ChoreGenerator-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		96AD1578247AAD28003D04F9 /* Sources */ = {
@@ -523,6 +672,7 @@
 		};
 		96AD15AC247AAD2C003D04F9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2CEFBB14BBC7CA4C7F2EDCE8 /* Pods-ChoreGenerator.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -540,6 +690,7 @@
 		};
 		96AD15AD247AAD2C003D04F9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E6FD88A427378A7BD60C726 /* Pods-ChoreGenerator.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -557,6 +708,7 @@
 		};
 		96AD15AF247AAD2C003D04F9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 600A0AFDC2C4C6AFAA78ACAD /* Pods-ChoreGeneratorTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -577,6 +729,7 @@
 		};
 		96AD15B0247AAD2C003D04F9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F6EC6FF347D944F8AB3B7D60 /* Pods-ChoreGeneratorTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -597,6 +750,7 @@
 		};
 		96AD15B2247AAD2C003D04F9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B9C94C649651AB531E72783C /* Pods-ChoreGenerator-ChoreGeneratorUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = V8L63862FY;
@@ -615,6 +769,7 @@
 		};
 		96AD15B3247AAD2C003D04F9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2467288F64FD9360C500384F /* Pods-ChoreGenerator-ChoreGeneratorUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = V8L63862FY;
