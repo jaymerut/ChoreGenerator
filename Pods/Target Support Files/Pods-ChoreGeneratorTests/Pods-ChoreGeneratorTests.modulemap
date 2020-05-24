@@ -1,0 +1,6 @@
+framework module Pods_ChoreGeneratorTests {
+  umbrella header "Pods-ChoreGeneratorTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
